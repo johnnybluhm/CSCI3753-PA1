@@ -1,0 +1,19 @@
+Contact info:
+Jonathan Bluhm
+jobl6075@colorado.edu
+
+cs3753_add.c has the source code for implemented system call
+Makefile is the file used to make the new kernel
+syscall_64.tbl is the trap table with all system calls listed
+syscalls.h is a header file that has function prototypes for system calls
+syslog is a log of what happened on the system.
+
+Build tree:
+arch/x86/kernel/cs3753_add.c
+arch/x86/kernel/Makefile
+arch/x86/entry/entry/syscalls/syscall_64.tbl
+include/linux/syscalls.h
+
+To build test program:
+gcc test_source.c -o ${whatever you want to call test program}
+ 
